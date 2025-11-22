@@ -1,0 +1,20 @@
+# Pythonのコンパイル済みファイル（ゴミ）
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Djangoのデータベース（これはローカルにだけあるべき）
+db.sqlite3
+db.sqlite3-journal
+
+# 環境変数や秘密鍵（絶対に公開してはいけない）
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDEの設定ファイル（他人には関係ない）
+.idea/
+.vscode/
+.DS_Store
